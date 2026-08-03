@@ -1,0 +1,38 @@
+/* SPDX-FileCopyrightText: 2026 HALA Academy */
+/* SPDX-License-Identifier: Apache-2.0 */
+/dts-v1/;
+
+/ {
+    model = "HALA Blue Pill STM32F103C8T6";
+    compatible = "hala,stm32f103c8";
+
+    memory@20000000 {
+        device_type = "memory";
+        reg = <0x20000000 0x00005000>;
+    };
+
+    chosen {
+        console = &usart1;
+        status-led = &status_led;
+        hala,init = "/sbin/hala-init";
+    };
+
+    gpioa: gpio@40010800 { compatible = "st,stm32f1-gpio"; reg = <0x40010800 0x400>; status = "okay"; };
+    gpioc: gpio@40011000 { compatible = "st,stm32f1-gpio"; reg = <0x40011000 0x400>; status = "okay"; };
+
+    usart1: serial@40013800 {
+        compatible = "st,stm32f1-usart";
+        reg = <0x40013800 0x400>;
+        current-speed = <115200>;
+        interrupts = <37>;
+        tx-pin = <&gpioa 9 2>;
+        rx-pin = <&gpioa 10 4>;
+        status = "okay";
+    };
+
+    status_led: led {
+        compatible = "hala,gpio-output";
+        pin = <&gpioc 13 2>;
+        active-low;
+    };
+};

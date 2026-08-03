@@ -1,0 +1,19 @@
+{
+  "sources": [
+    "src/generated/board_config.c",
+    "src/core/halaos_state.c",
+    "src/boot/halaos_boot.c",
+    "src/platform/halaos_dtb_driver.c",
+    "src/kernel/halaos_kernel.c",
+    "src/kernel/halaos_syscall.c",
+    "src/kernel/halaos_objects.c",
+    "src/user/hala_posix.c",
+    "src/services/hala_compiler.c",
+    "src/services/halaos_runtime.c",
+    "src/services/halaos_shell.c",
+    "src/services/halaos_tasks.c",
+    "examples/ex01_threads_scheduler.c",
+    "examples/ex02_ipc_sync.c",
+    "examples/ex03_vfs_proc_dev.c"
+  ]
+}

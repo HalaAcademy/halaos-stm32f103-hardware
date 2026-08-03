@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "bluepill-release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/cmake/bluepill-release",
+      "toolchainFile": "${sourceDir}/cmake/armv7m-clang.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "MinSizeRel"
+      }
+    }
+  ]
+}

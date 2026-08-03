@@ -1,0 +1,38 @@
+{
+  "model": "HALA Blue Pill STM32F103C8T6",
+  "compatible": "hala,stm32f103c8",
+  "init": "/sbin/hala-init",
+  "memoryBase": 536870912,
+  "memorySize": 20480,
+  "usart1Base": 1073821696,
+  "usart1Irq": 37,
+  "baudrate": 115200,
+  "tx": {
+    "port": "A",
+    "pin": 9,
+    "mode": 2
+  },
+  "rx": {
+    "port": "A",
+    "pin": 10,
+    "mode": 4
+  },
+  "led": {
+    "port": "C",
+    "pin": 13,
+    "mode": 2,
+    "activeLow": true
+  },
+  "project": "HalaOS",
+  "owner": "HALA Academy",
+  "website": "https://hala.edu.vn",
+  "target": "STM32F103C8 Blue Pill",
+  "nodeCount": 7,
+  "propertyCount": 23,
+  "dtb": {
+    "magic": 1212437570,
+    "version": 2,
+    "totalSize": 662,
+    "crc32": 1248864703
+  }
+}

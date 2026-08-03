@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+*.bak
+*.swp
+.DS_Store
+.vscode/*.log

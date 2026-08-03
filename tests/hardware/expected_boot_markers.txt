@@ -1,0 +1,9 @@
+# Các chuỗi phải xuất hiện trong một lần boot Blue Pill thành công.
+HalaOS Stage-0
+CPU: STM32F103C8 Cortex-M3
+dtb: runtime compact DTB verified
+driver: registry bound devices=
+sched: classes DEADLINE FIFO RR NORMAL BATCH IDLE
+user: hala-shell running unprivileged on PSP
+HalaOS Blue Pill Educational
+hala$ 
