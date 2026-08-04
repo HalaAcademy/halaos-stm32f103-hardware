@@ -73,12 +73,13 @@ Trên Windows có thể dùng `PORT=COM5`.
 
 ## Tài liệu
 
-- `docs/hardware/BLUEPILL_SETUP.md`
-- `docs/hardware/FLASH_AND_UART.md`
-- `docs/hardware/HARDWARE_TEST_PLAN.md`
-- `docs/development/BUILD.md`
-- `docs/architecture/ARCHITECTURE.md`
-- `docs/project/KNOWN_LIMITATIONS.md`
+- [docs/hardware/BLUEPILL_SETUP.md](docs/hardware/BLUEPILL_SETUP.md)
+- [docs/hardware/FLASH_AND_UART.md](docs/hardware/FLASH_AND_UART.md)
+- [docs/hardware/HARDWARE_TEST_PLAN.md](docs/hardware/HARDWARE_TEST_PLAN.md)
+- [docs/hardware/UART_DEMO_EVIDENCE.md](docs/hardware/UART_DEMO_EVIDENCE.md) (Minh chứng kiểm thử qua UART)
+- [docs/development/BUILD.md](docs/development/BUILD.md)
+- [docs/architecture/ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md)
+- [docs/project/KNOWN_LIMITATIONS.md](docs/project/KNOWN_LIMITATIONS.md)
 
 ## Giới hạn
 
