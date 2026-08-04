@@ -73,7 +73,7 @@ SCREENSHOTS_DATA = {
 }
 
 FONT_PATH = "/System/Library/Fonts/Supplemental/Arial.ttf"
-IMAGES_DIR = "docs/images/evidence-v2"
+IMAGES_DIR = "docs/images/evidence"
 
 def wrap_text(text, font, max_width):
     """Tự động xuống dòng cho văn bản dựa trên kích thước font và chiều rộng tối đa."""
